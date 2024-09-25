@@ -38,12 +38,6 @@ h1.h1class {
 	color: rgb(29, 212, 75);
 }
 
-div {
-	width:100px;
-	margin: auto;
-	border: 1px solid red;
-}
-
 div.custom {
 	width: 300px;
 	box-sizing: border-box;
@@ -55,5 +49,170 @@ div.custom {
 }
 
 
+ul.a {
+	list-style-type: circle;
+  }
+  
+  ul.b {
+	list-style-type: square;
+  }
+  
+  ol.c {
+	list-style-type: upper-roman;
+  }
+  
+  ol.d {
+	list-style-type: lower-alpha;
+  }
+
+  a:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  a:hover, a:active {
+	background-color: red;
+  }
 
 
+  ol {
+	background: #ff9999;
+	padding: 20px;
+  }
+  
+  ul {
+	background: #3399ff;
+	padding: 20px;
+  }
+  
+  ol li {
+	background: #ffe5e5;
+	padding: 5px;
+	margin-left: 35px;
+  }
+  
+  ul li {
+	background: #cce5ff;
+	margin: 5px;
+  }
+
+  table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+  .animate {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	animation: move 2s infinite;
+  }
+  
+  @keyframes move {
+	0% {left: 0px;}
+	50% {left: 100px;}
+	100% {left: 0px;}
+  }
+
+  .tooltip {
+	position: relative;
+	display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+  }
+
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  .button {
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+  }
+
+  .pagination {
+	display: inline-block;
+  }
+
+  .pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #8d0404;
+	margin: 0 4px;
+  }
+
+  .pagination a:hover {
+	background-color: #af0c0c;
+  }
+
+  .columns {
+	column-count: 3;
+	column-gap: 20px;
+  }
+
+  .shadow {
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	box-shadow: 10px 10px 5px grey;
+  }
+
+  .box-shadow {
+	width: 200px;
+	height: 100px;
+	background-color: pink;
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .transition {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: width 2s;
+  }
+
+  .transition:hover {
+	width: 200px;
+  }
+
+  .text-effect {
+	font-size: 40px;
+	color: blue;
+	text-shadow: 2px 2px 4px #000000;
+  }
